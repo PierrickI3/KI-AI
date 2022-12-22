@@ -1,0 +1,13 @@
+- python -m venv .env
+- source .env/bin/activate
+- pip install torch
+- pip install tensorflow
+- pip install transformers
+- sudo apt-get install python3.8-dev
+- pip install psutils
+- pip install accelerate
+- pip uninstall tensorflow
+- pip uninstall tensorflow-io
+- pip install tensorflow-gpu # causes an error
+- pip install --no-deps tensorflow-io
+- python ./GPT_J.py
